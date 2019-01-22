@@ -47,7 +47,7 @@ var libs = [
     "CYObjectiveC",
     "frida_agent_main"];
 var resolver = new ApiResolver('objc');
-resolver.enumerateMatches('*[* *ail*]', {
+resolver.enumerateMatches('*[* *Jail*]', {
     onMatch: function (match) {
         var func = match["name"];
         var ptr = match["address"];

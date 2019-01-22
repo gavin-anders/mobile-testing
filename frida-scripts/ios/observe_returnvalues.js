@@ -1,8 +1,8 @@
 if (ObjC.available) {
 
     try {
-        var className = "";
-        var funcName = "";
+        var className = "Backbase";
+        var funcName = "isDeviceJailBroken";
         var hook = eval('ObjC.classes.' + className + '["' + funcName + '"]');
 
         Interceptor.attach(hook.implementation, {

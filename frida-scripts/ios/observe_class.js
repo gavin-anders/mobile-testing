@@ -38,4 +38,4 @@ function observeClass(name) {
         });
     });
 }
-observeClass("");
+observeClass("Backbase");
